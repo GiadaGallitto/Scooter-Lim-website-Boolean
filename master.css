@@ -1,0 +1,74 @@
+/* Sfondo sito */
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+/* Pannello menù */
+.panel{
+  width: 1200px;
+  height: 850px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 100px;
+  font-family: sans-serif;
+}
+
+header, nav{
+  text-align: center;
+}
+
+header > img{
+  width: 250px;
+  display: inline-block;
+}
+
+header > h1{
+  color: rgb(0,255,0);
+  margin-top: 10px;
+}
+
+nav > div{
+  background-color: rgb(0,255,0);
+  height: 50px;
+}
+
+nav button{
+  margin-top: 15px;
+}
+
+h2{
+  display: inline-block;
+  margin-top: 40px;
+}
+
+main section{
+  color: white;
+}
+
+.address:before{
+  content: "\27FC"
+}
+
+.first-scooter div:last-child{
+  background-color: #ffcb75;
+  width: 450px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.second-scooter div:last-child{
+  background-color: #7FFF00;
+  width: 750px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.third-scooter div:last-child{
+  background-color: #FF6347;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+}
